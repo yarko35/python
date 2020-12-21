@@ -116,7 +116,7 @@
 	"a" in "merhaba"
 	#true veya false değer döndürür.
 	```
-## Basit Örnekler
+## _Basit Örnekler_
 ### Bir sayının tek mi çift mi olduğunu bulma
 ```python
 	liste=[34,17,23,68]
