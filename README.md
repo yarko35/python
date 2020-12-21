@@ -25,3 +25,32 @@
 			print("Hangi index:{},Liste:{}".format(index,liste[index]))
 			index +=1
 ```
+## For
+- in operatörü: bir değerin başka birdeğer içerisinde var olup olmadığını kontrol etmemize yarar.
+	```python
+	"a" in "merhaba"
+	#true veya false değer döndürür.
+
+````
+-for elemanlar üzerinde gezinmemize yarar
+
+-for eleman in liste dediğimiz zaman eleman gezineceğimiz değişkendeki her elemena eşit olmuş oluyor
+```python
+	liste=[1,2,3,4,5]
+	for i in liste:
+	    print("Eleman",eleman)
+	#her elemanı alt alta yazdırmış oluyoruz liste bitene kadar çalışmış oluyor.
+
+
+```
+```python
+	toplam=0
+	liste=[1,2,3,4,5]
+	for eleman in liste:
+	    toplam=toplam+eleman
+	    print("Toplamları:",toplam)#her döngüde toplamları yazar
+	print("Toplamları:",toplam)#döngü bitince toplamlarını yazar
+
+```
+
+
