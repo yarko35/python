@@ -23,6 +23,14 @@
 			print("Hangi index:{},Liste:{}".format(index,liste[index]))
 			index +=1
 ```
+## Mantıksal Bağlaçlar
+- and operatörü:Satır bitene kadar inceler false çıktığı an false yazar false değilse true değer döndürür
+
+- or operatörü: bütün işlemlerin sonucu false ise false döndürür aksi takdirde hep true döndürür.
+
+- not operatörü: bir işlemin sonucunu true ise false, false ise true yapar
+
+
 ## For
 - in operatörü: bir değerin başka birdeğer içerisinde var olup olmadığını kontrol etmemize yarar.
 	```python
@@ -83,16 +91,19 @@
 	#diğer tarafı values olarak geçer
 	sözlük={"oğuz":16,"yarkın":35,"emirhan":10,"sude":10}
 ```
-## Mantıksal Bağlaçlar
-- and operatörü:Satır bitene kadar inceler false çıktığı an false yazar false değilse true değer döndürür
-
-- or operatörü: bütün işlemlerin sonucu false ise false döndürür aksi takdirde hep true döndürür.
-
-- not operatörü: bir işlemin sonucunu true ise false, false ise true yapar
+## İf Elif Else blokları
 
 
+```python
+	a==2
+	if(3<a):
+		print("sonuc yanlis {}".format(a))
+	elif(3>a):
+		print("sonucunuz dogru{}".format(a))
+	else:
+		print("farklı deger veriniz")
 
-
+```
 
 
 
