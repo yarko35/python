@@ -87,6 +87,24 @@
 		print("farklı deger veriniz")
 
 ```
+### range() fonksiyonu
+- istediğimiz oranları  belirterek sayı dizisi oluşturu range kelime olarak aralık anlamına gelir.
+```python
+	    range(0,20)
+	    print(*range(0,20))
+	#sayılarım 0 dan 20 e 2 atlayarak gitsin demiş oluyorum
+	    print(*range(0,20,2))
+	#20 den sıfıra kadar 1 atlayarak git demiş oluyorum
+	    print(*range(20,0,-1))
+	#1den 100 e kadar olan sayıları range ve for kullanarak yazdırma
+	    for i in range(1,101):
+		print(i)
+	#binom mantığıyla yıldız bastırma
+	    for i in range(1,10):
+		print("*"* i)
+```
+
+
 
 ### Bir sayının tek mi çift mi olduğunu bulma
 ```python
