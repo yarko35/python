@@ -1,14 +1,12 @@
 # Python mustafa murat coşkun 
 #### While
 - for döngülerinde yapcaklarımız while döngüsünde de yapabiliriz.Sadece bazı noktalarda for döngüleri daha avantajlı oluyor
-    {
-        i=0
+```python
+		i=0
 		while(i<10)
-			print("i nin degeri: {}".format(i))
-			i +=1
-}
-
-
+		    print("i nin degeri: {}".format(i))
+		    i +=1
+````
 - İsmi 3 kere yazdırma
 ```python
 		a=0
