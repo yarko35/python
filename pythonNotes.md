@@ -99,6 +99,7 @@
 	    for i in range(1,10):
 		print("*"* i)
 ```
+
 ### .format() parametresi
 ```python
 	toplam=0
