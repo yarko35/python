@@ -57,16 +57,15 @@
 	print("Toplamları:",toplam)#döngü bitince toplamlarını yazar
 
 ```
-### .format() metodu
 ```python
-	toplam=0
-	liste=[1,2,3,4,5]
-	for eleman in liste:
-	    toplam=toplam+eleman
-	    print("Toplamları:{} Elemanlar:{}" .format(toplam,eleman))
-	    #her döngüde toplamları yazar
+	 liste=[(1,2),(3,4),(35,20)]
+	#iç içe for yaparakta yazılabilir.
+	for i,j in liste
+	    print("Sayılarınız i:{} j:{}".format(i,j))
 ```
-- kalan bulma operatör=> x%y
+
+
+
 ## Dict
 ```python
 	 #sözlüklerde okuma nasıl yapılır
@@ -87,7 +86,8 @@
 		print("farklı deger veriniz")
 
 ```
-## range() fonksiyonu
+## Parametre,Metod ve Operatörler
+### range() parametresi
 - istediğimiz oranları  belirterek sayı dizisi oluşturu range kelime olarak aralık anlamına gelir.
 ```python
 	    range(0,20)
@@ -103,10 +103,20 @@
 	    for i in range(1,10):
 		print("*"* i)
 ```
+### .format() parametresi
+```python
+	toplam=0
+	liste=[1,2,3,4,5]
+	for eleman in liste:
+	    toplam=toplam+eleman
+	    print("Toplamları:{} Elemanlar:{}" .format(toplam,eleman))
+	    #her döngüde toplamları yazar
+```
+### Kalan bulma operatörü
+- x%y
 
-
-
-##### Bir sayının tek mi çift mi olduğunu bulma
+## Basit Örnekler
+### Bir sayının tek mi çift mi olduğunu bulma
 ```python
 	liste=[34,17,23,68]
 	for eleman in liste
@@ -117,12 +127,6 @@
 		break
 ```
 
-```python
-	 liste=[(1,2),(3,4),(35,20)]
-	#iç içe for yaparakta yazılabilir.
-	for i,j in liste
-	    print("Sayılarınız i:{} j:{}".format(i,j))
-```
 
 
 
