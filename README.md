@@ -10,11 +10,6 @@
 
 
 - İsmi 3 kere yazdırma
-{
-			
-
-    }
-
 ```python
 		a=0
 		while(a<=3)
@@ -22,15 +17,13 @@
 			a+=1
 ```
  
-```
+
 
 - for da yaptığımız okumaları while ile de yapabiliriz
- {
-			liste=[1,2,3,4,5]
-			index=0
-			while(index<len(liste))
-				print("Hangi index:{},Liste:{}".format(index,liste[index]))
-				index +=1
-
-
-    }
+```python
+		liste=[1,2,3,4,5]
+		index=0
+		while(index<len(liste))
+			print("Hangi index:{},Liste:{}".format(index,liste[index]))
+			index +=1
+```
