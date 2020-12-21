@@ -1,5 +1,5 @@
 # Python mustafa murat coşkun 
-#### While
+## While
 - for döngülerinde yapcaklarımız while döngüsünde de yapabiliriz.Sadece bazı noktalarda for döngüleri daha avantajlı oluyor
 ```python
 		i=0
