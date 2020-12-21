@@ -49,5 +49,38 @@
 	print("Toplamları:",toplam)#döngü bitince toplamlarını yazar
 
 ```
+###Format metoduyla yazım şekli
+```python
+	toplam=0
+	liste=[1,2,3,4,5]
+	for eleman in liste:
+	    toplam=toplam+eleman
+	    print("Toplamları:{} Elemanlar:{}" .format(toplam,eleman))
+	    #her döngüde toplamları yazar
+```
+- kalan bulma operatör=> x%y
+### Bir sayının tek mi çift mi olduğunu bulma
+```python
+	liste=[34,17,23,68]
+	for eleman in liste
+	    if(eleman % 2 ==0)
+		print("Sayınız({}) çift bir sayıdır.".format(eleman))
+	    else:
+		print("Sayınız({})çift bir sayı değildir.".format(eleman))
+		break
+```
 
+```python
+	 liste=[(1,2),(3,4),(35,20)]
+	#iç içe for yaparakta yazılabilir.
+	for i,j in liste
+	    print("Sayılarınız i:{} j:{}".format(i,j))
+```
+###Dict
+```python
+	 #sözlüklerde okuma nasıl yapılır
+	#tırnak içindekiler anahtar-keys
+	#diğer tarafı values olarak geçer
+	sözlük={"oğuz":16,"yarkın":35,"emirhan":10,"sude":10}
+```
 
