@@ -1,5 +1,5 @@
 # *****************Python Notlarım*****************
-## While
+## _While_
 - for döngülerinde yapcaklarımız while döngüsünde de yapabiliriz.Sadece bazı noktalarda for döngüleri daha avantajlı oluyor
 ```python
 		i=0
@@ -23,7 +23,7 @@
 			print("Hangi index:{},Liste:{}".format(index,liste[index]))
 			index +=1
 ```
-## Mantıksal Bağlaçlar
+## _Mantıksal Bağlaçlar_
 - _and operatörü_:Satır bitene kadar inceler false çıktığı an false yazar false değilse true değer döndürür
 
 - _or operatörü_: bütün işlemlerin sonucu false ise false döndürür aksi takdirde hep true döndürür.
@@ -31,7 +31,7 @@
 - _not operatörü_: bir işlemin sonucunu true ise false, false ise true yapar
 
 
-## For
+## _For_
 
 -for elemanlar üzerinde gezinmemize yarar
 
@@ -62,14 +62,14 @@
 
 
 
-## Dict
+## _Dict_
 ```python
 	 #sözlüklerde okuma nasıl yapılır
 	#tırnak içindekiler anahtar-keys
 	#diğer tarafı values olarak geçer
 	sözlük={"oğuz":16,"yarkın":35,"emirhan":10,"sude":10}
 ```
-## İf Elif Else blokları
+## _İf Elif Else blokları_
 
 
 ```python
@@ -82,7 +82,7 @@
 		print("farklı deger veriniz")
 
 ```
-## Parametre,Metod ve Operatörler
+## _Parametre,Metod ve Operatörler_
 ### range() parametresi
 - istediğimiz oranları  belirterek sayı dizisi oluşturu range kelime olarak aralık anlamına gelir.
 ```python
