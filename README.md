@@ -57,7 +57,7 @@
 	print("Toplamları:",toplam)#döngü bitince toplamlarını yazar
 
 ```
-###Format metoduyla yazım şekli
+### .format() metodu
 ```python
 	toplam=0
 	liste=[1,2,3,4,5]
