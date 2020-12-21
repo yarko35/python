@@ -11,14 +11,18 @@
 
 - İsmi 3 kere yazdırma
 {
-			a=0
-			while(a<=3)
-				print("yarkoZe35")
-				a+=1
+			
 
     }
 
-
+```python
+		a=0
+		while(a<=3)
+			print("yarkoZe35")
+			a+=1
+```
+ 
+```
 
 - for da yaptığımız okumaları while ile de yapabiliriz
  {
