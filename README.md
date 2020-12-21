@@ -67,23 +67,6 @@
 	    #her döngüde toplamları yazar
 ```
 - kalan bulma operatör=> x%y
-### Bir sayının tek mi çift mi olduğunu bulma
-```python
-	liste=[34,17,23,68]
-	for eleman in liste
-	    if(eleman % 2 ==0)
-		print("Sayınız({}) çift bir sayıdır.".format(eleman))
-	    else:
-		print("Sayınız({})çift bir sayı değildir.".format(eleman))
-		break
-```
-
-```python
-	 liste=[(1,2),(3,4),(35,20)]
-	#iç içe for yaparakta yazılabilir.
-	for i,j in liste
-	    print("Sayılarınız i:{} j:{}".format(i,j))
-```
 ## Dict
 ```python
 	 #sözlüklerde okuma nasıl yapılır
@@ -103,6 +86,24 @@
 	else:
 		print("farklı deger veriniz")
 
+```
+
+### Bir sayının tek mi çift mi olduğunu bulma
+```python
+	liste=[34,17,23,68]
+	for eleman in liste
+	    if(eleman % 2 ==0)
+		print("Sayınız({}) çift bir sayıdır.".format(eleman))
+	    else:
+		print("Sayınız({})çift bir sayı değildir.".format(eleman))
+		break
+```
+
+```python
+	 liste=[(1,2),(3,4),(35,20)]
+	#iç içe for yaparakta yazılabilir.
+	for i,j in liste
+	    print("Sayılarınız i:{} j:{}".format(i,j))
 ```
 
 
