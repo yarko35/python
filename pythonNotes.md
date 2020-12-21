@@ -108,10 +108,38 @@
 	    print("Toplamları:{} Elemanlar:{}" .format(toplam,eleman))
 	    #her döngüde toplamları yazar
 ```
+### break ve continue ifadeleri
+- _**break**_: döngü herhangi bir zamanda break ifadesiyle karşılaşınca durduruluyor.Sadece bulunduğu döngüyü sonlandırır.
+```python
+	i=0
+	while(i<10):
+	if(i ==5):
+	 break
+	 print("i:",i)
+	 i +=1
+```
+```python
+	liste=[1,2,3,4,5,6,7,8,9]
+	for i in liste:
+		if(i ==3):
+			break
+	#i=3 olunca for döngüsü biter
+	print(i)
+```
+- _**continue**_ : Break e kıyasla daha az kullanılır. Etki alanı daha az olduğu için. Dngü herhangi bir yerde continue ile karşılaşırsa döngünün başına döner.
+```python
+	liste=list(range(0,10))
+	for i in liste:
+		if (i ==3 or i==5):
+			continue
+		print("i:",i)
+		#3 ve 5 değerlerini görünce döngünün başına gider geriye kalan tüm değerleri bastırır.
+```
+
 ### Kalan bulma operatörü
 - x%y
 ### in operatörü
-- *in operatörü: bir değerin başka birdeğer içerisinde var olup olmadığını kontrol etmemize yarar.
+- **in operatörü**: bir değerin başka birdeğer içerisinde var olup olmadığını kontrol etmemize yarar.
 	```python
 	"a" in "merhaba"
 	#true veya false değer döndürür.
