@@ -76,7 +76,7 @@
 	for i,j in liste
 	    print("Sayılarınız i:{} j:{}".format(i,j))
 ```
-###Dict
+## Dict
 ```python
 	 #sözlüklerde okuma nasıl yapılır
 	#tırnak içindekiler anahtar-keys
