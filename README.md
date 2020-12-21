@@ -87,7 +87,7 @@
 		print("farklı deger veriniz")
 
 ```
-### range() fonksiyonu
+## range() fonksiyonu
 - istediğimiz oranları  belirterek sayı dizisi oluşturu range kelime olarak aralık anlamına gelir.
 ```python
 	    range(0,20)
@@ -106,7 +106,7 @@
 
 
 
-### Bir sayının tek mi çift mi olduğunu bulma
+##### Bir sayının tek mi çift mi olduğunu bulma
 ```python
 	liste=[34,17,23,68]
 	for eleman in liste
