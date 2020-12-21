@@ -6,7 +6,7 @@
 		while(i<10)
 		    print("i nin degeri: {}".format(i))
 		    i +=1
-````
+```
 - İsmi 3 kere yazdırma
 ```python
 		a=0
@@ -15,8 +15,6 @@
 			a+=1
 ```
  
-
-
 - for da yaptığımız okumaları while ile de yapabiliriz
 ```python
 		liste=[1,2,3,4,5]
@@ -30,8 +28,7 @@
 	```python
 	"a" in "merhaba"
 	#true veya false değer döndürür.
-
-````
+	```
 -for elemanlar üzerinde gezinmemize yarar
 
 -for eleman in liste dediğimiz zaman eleman gezineceğimiz değişkendeki her elemena eşit olmuş oluyor
