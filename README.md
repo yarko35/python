@@ -24,11 +24,11 @@
 			index +=1
 ```
 ## Mantıksal Bağlaçlar
-- *and operatörü:Satır bitene kadar inceler false çıktığı an false yazar false değilse true değer döndürür
+- **and operatörü:Satır bitene kadar inceler false çıktığı an false yazar false değilse true değer döndürür
 
-- *or operatörü: bütün işlemlerin sonucu false ise false döndürür aksi takdirde hep true döndürür.
+- **or operatörü: bütün işlemlerin sonucu false ise false döndürür aksi takdirde hep true döndürür.
 
-- *not operatörü: bir işlemin sonucunu true ise false, false ise true yapar
+- **not operatörü: bir işlemin sonucunu true ise false, false ise true yapar
 
 
 ## For
