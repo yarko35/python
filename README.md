@@ -1,4 +1,4 @@
-# Python Notlarım
+# ******************Python Notlarım*****************
 ## While
 - for döngülerinde yapcaklarımız while döngüsünde de yapabiliriz.Sadece bazı noktalarda for döngüleri daha avantajlı oluyor
 ```python
