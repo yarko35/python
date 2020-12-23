@@ -62,13 +62,7 @@
 
 
 
-## _Dict_
-```python
-	 #sözlüklerde okuma nasıl yapılır
-	#tırnak içindekiler anahtar-keys
-	#diğer tarafı values olarak geçer
-	sözlük={"oğuz":16,"yarkın":35,"emirhan":10,"sude":10}
-```
+
 ## _İf Elif Else blokları_
 
 
@@ -82,6 +76,29 @@
 		print("farklı deger veriniz")
 
 ```
+## Listeler(list)
+- Listelerin alt parametrelerini öğrenmek için dir(liste) diyerek alt parametrelerini öğrenebiliriz neler barındığına dair.
+- list.append() listeye eleman eklemek için kullanılır.
+- list.reverse() listeyi sondan başa sıralar.
+- list.remove() içine atılan değeri ilgili listeden kaldırır.
+
+
+```python
+	listenin_ismi[x:y]
+	x indeksinden y indeksine kadar olan sayıları almamıza yarar.
+
+```
+## Demet(tuple)
+- Listelerin standrt parantez kullanılarak yazım şeklidir.
+- t.count(): içine girilen değerden kaçtane olduğunu gösterir
+## _Dict_
+```python
+	 #sözlüklerde okuma nasıl yapılır
+	#tırnak içindekiler anahtar-keys
+	#diğer tarafı values olarak geçer
+	sözlük={"oğuz":16,"yarkın":35,"emirhan":10,"sude":10}
+```
+
 ## _Parametre,Metod ve Operatörler_
 ### range() parametresi
 - istediğimiz oranları  belirterek sayı dizisi oluşturu range kelime olarak aralık anlamına gelir.
@@ -135,6 +152,14 @@
 			continue
 		print("i:",i)
 		#3 ve 5 değerlerini görünce döngünün başına gider geriye kalan tüm değerleri bastırır.
+```
+- _**lambda function**_ : fonksiyonları oluştururken kullandığımız parametreleri kısaltmaya yarar.Program daha akıcı kodlanabilir.
+```python
+	 def hesapla(x):
+           	cikti=x*x
+        	return x
+	hesapla= lambda x:x*x
+	print(hesapla(3))
 ```
 
 ### Kalan bulma operatörü
