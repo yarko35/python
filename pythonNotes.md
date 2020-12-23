@@ -76,7 +76,43 @@
 		print("farklı deger veriniz")
 
 ```
-## Listeler(list)
+## Class
+- Constructor:
+```python
+	class calisan:
+		def __init(self,isim,soyisim,email,maas):
+			self.isim=isim
+			self.soyisim=soyisim
+			self.maas=maas+"$"
+			self.email=isim+soyisim+"@gmail.com"
+			
+
+```
+- Classlara Variable tanımlama:
+```python
+	class calisan:
+		zam_orani=1.8
+		counter=0
+		def __init(self,isim,soyisim,email,maas):
+			self.isim=isim
+			self.soyisim=soyisim
+			self.maas=maas+"$"
+			self.email=isim+soyisim+"@gmail.com"
+			Calisan.counter= calisan.counter+1
+			#self ile tanımlama yapamam çünkü classımda eklenen eleman sayısını 1 arttırmam lazım
+		def zamOraniself):
+			self.maas=self.maas+self.maas*self.zam_orani
+			
+calisanOguz=calisan("Muhammed oğuzhan","Çiftçi",5000)
+print("ilk maas: {}".format(calisanOguz.maas))
+calisanOguz.zamOrani()
+print("ilk maas: {}".format(calisanOguz.maas))
+```
+
+
+
+
+## Listeler(list
 - Listelerin alt parametrelerini öğrenmek için dir(liste) diyerek alt parametrelerini öğrenebiliriz neler barındığına dair.
 - list.append() listeye eleman eklemek için kullanılır.
 - list.reverse() listeyi sondan başa sıralar.
