@@ -108,7 +108,38 @@ print("ilk maas: {}".format(calisanOguz.maas))
 calisanOguz.zamOrani()
 print("ilk maas: {}".format(calisanOguz.maas))
 ```
+- Class example
+```python
+	class calisan:
+		zam_orani=1.8
+		counter=0
+		def __init(self,isim,soyisim,email,maas):
+			self.isim=isim
+			self.soyisim=soyisim
+			self.maas=maas+"$"
+			self.email=isim+soyisim+"@gmail.com"
+			Calisan.counter= calisan.counter+1
+			#self ile tanımlama yapamam çünkü classımda eklenen eleman sayısını 1 arttırmam lazım
+		def zamOraniself):
+			self.maas=self.maas+self.maas*self.zam_orani
+			
+calisanOguz=calisan("Muhammed oğuzhan","Çiftçi",5000)
+calisanYarko=calisan("Yavuz yarkın","Okular",5000)
+calisanEmir=calisan("Emirhan","Özen",5000),
+####listelere ekleyebilir miyiz sorusunun cevabı
+liste[calisan1,calisan2,calisan3]
+maxi_maas=-1
+index=-1
+for each in liste:
+	if(each.maas>maxi_maas):
+		maxi_maas=each.maas
+		index= each
+print(maxi_maas
+print(liste[index.
 
+
+
+```
 
 
 
