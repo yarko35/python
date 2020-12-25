@@ -143,7 +143,7 @@ print(liste[index.
 
 
 
-## Listeler(list
+## Listeler(list)
 - Listelerin alt parametrelerini öğrenmek için dir(liste) diyerek alt parametrelerini öğrenebiliriz neler barındığına dair.
 - list.append() listeye eleman eklemek için kullanılır.
 - list.reverse() listeyi sondan başa sıralar.
@@ -155,6 +155,9 @@ print(liste[index.
 	x indeksinden y indeksine kadar olan sayıları almamıza yarar.
 
 ```
+## Try-except
+### syntax error
+- Yazım hataları imla hataları gibi düşünebiliriz.
 ## Demet(tuple)
 - Listelerin standrt parantez kullanılarak yazım şeklidir.
 - t.count(): içine girilen değerden kaçtane olduğunu gösterir
