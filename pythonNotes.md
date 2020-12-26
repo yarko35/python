@@ -158,9 +158,32 @@ print(liste[index.
 ## Try-except
 ### syntax error
 - Yazım hataları imla hataları gibi düşünebiliriz.
+### parantez syntax hataları
+- parantezi unutmaya bağlı hatalarda syntax hatası verebilir
+### typeError
+- eğer ki bir string ve bir integer değeri toplama durumlarında dönüşüm yapmazsak bu hatayı alırız.
+### ZeroDivisionError
+- paydanın sıfır olduğu durumlar örnektir.
 ## Demet(tuple)
 - Listelerin standrt parantez kullanılarak yazım şeklidir.
 - t.count(): içine girilen değerden kaçtane olduğunu gösterir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## _Dict_
 ```python
 	 #sözlüklerde okuma nasıl yapılır
