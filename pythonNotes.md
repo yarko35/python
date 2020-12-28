@@ -274,9 +274,23 @@ print(liste[index.
 		print("Sayınız({})çift bir sayı değildir.".format(eleman))
 		break
 ```
-
-
-
+# Numpy Kütüphanesi
+- Herhangi birşey import ederken import dosya_adi as dosya_kısaltmasi olarak kısaltma ataması yapmak mümkün
+- Numpy kullanılma sebebi matlabtaki gibi vektör oluşturma, matrix oluşturmada kullanılır.
+## Array 
+- np.array ile liste oluşturuluyor
+- array.reshape(x,y)x satırında y sütünü kada matris oluşturmuş oluyoruz
+- array.ndim ile kaç boyutlu olduğunu öğrenebiliriz.
+- array.dtype.name ile integer mı string mi onu öğrnebilirim.
+- array.size ile boyutunu öğrenebilirim. 
+- np.zeros(x,y)x e ylik bir matris oluşturur. append metodu memory i çok yorduğu için tecih edilir.
+- Zeros a ekleme yapmak için zeros_değişkeninin_adı[x,y]=z xnci satır ynci sütunu değişkeni z olsun demiş oluruz.
+- Zerosdaki eklemelerde indeksteki mantıkla aynı 0 ncı satır 0 ncı sütun indeks demek.
+- np.ones(x,y) zerosla aynı mantık 1 lerden oluşan bir matris yaratır.
+- np.empty(x,y) zeros ones ile yaptıklarımızın aynısı sadece boş bir matriks yaratır.
+- np.arange(x,y,z) x den y e kadar olan sayıları z atlayarak yaz demektir. 
+### _Dipnot_: _Pythonda yukarıdaki gibi yazıldığında x i dahil eder fakat son sayı y i dahil etmez_
+- np.linspace(x,y,z)x den y e kadar olan sayıları z kadar türetir en son y i de dahil eder.
 
 
 
