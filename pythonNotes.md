@@ -291,8 +291,18 @@ print(liste[index.
 - np.arange(x,y,z) x den y e kadar olan sayıları z atlayarak yaz demektir. 
 ### _Dipnot_: _Pythonda yukarıdaki gibi yazıldığında x i dahil eder fakat son sayı y i dahil etmez_
 - np.linspace(x,y,z)x den y e kadar olan sayıları z kadar türetir en son y i de dahil eder.
-
-
+## Numpy Operatörleri
+- np.sin(x) içerisine girilen değerin sinusunu alır.
+- np.random.random(x,y)5 e 5 lik 0 ile 1 arasında sayı oluşturur.
+- array.sum() tüm değerlerin toplamı
+- array.max() oluşturulan sayılardaki maximum değer
+- array.min() oluşturulan sayılardaki minimum değer.
+- array.sum(axis=0) matristeki sütunları toplar
+- array.sum(axis=1) matristeki satırları toplar
+- np.sqrt(a) a nın karekökünü almada kullanılır.
+- np.square(a) a nın karesini almada kullanılır
+- array.dot(digerArray.T) T transpoz yani matrisi tersine çevirir 3 e 2 ise 2 e 3 yapar.
+- Transpoz çarpımı hatırlamazsan google a yaz
 
 
 
