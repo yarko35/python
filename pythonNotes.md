@@ -303,6 +303,23 @@ print(liste[index.
 - np.square(a) a nın karesini almada kullanılır
 - array.dot(digerArray.T) T transpoz yani matrisi tersine çevirir 3 e 2 ise 2 e 3 yapar.
 - Transpoz çarpımı hatırlamazsan google a yaz
+## Indexing and Slicing
+- Herhangi bir arrayde indeksleri 0 dan 3 ekadar olacak şekilde örneğin yazdırmak istiyorsam array[0:3] dersem 0 dan 3 e kadar olan sayıları 3 dahil olmadan yazdırır.
+- Bir arrayı tersine çevirme array[::-1]
+### Matrisler arasından seçim yapma
+- array[:,1] iki nokta  satırların hepsini al virgülden sonraki 1 de 1nci indeksteki sütunu al demiş oluyorum 
+- array[x,y] x satır y sütun anlamına gelir eğerki son satırı almak istiyorsak x yerine -1 yazarız eğer ki tüm satırları almak istiyorsak : kullanırız.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
