@@ -169,21 +169,6 @@ print(liste[index.
 - t.count(): içine girilen değerden kaçtane olduğunu gösterir
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## _Dict_
 ```python
 	 #sözlüklerde okuma nasıl yapılır
@@ -277,8 +262,8 @@ print(liste[index.
 # Numpy Kütüphanesi
 - Herhangi birşey import ederken import dosya_adi as dosya_kısaltmasi olarak kısaltma ataması yapmak mümkün
 - Numpy kullanılma sebebi matlabtaki gibi vektör oluşturma, matrix oluşturmada kullanılır.
-## ! Array(kelime anlamı olarak MATRİS anlamına gelir)
-- np.array ile liste oluşturuluyor
+##  Array(kelime anlamı olarak MATRİS anlamına gelir)
+- np.array ile matris oluşturuluyor
 - array.reshape(x,y)x satırında y sütünü kada matris oluşturmuş oluyoruz
 - array.ndim ile kaç boyutlu olduğunu öğrenebiliriz.
 - array.dtype.name ile integer mı string mi onu öğrnebilirim.
