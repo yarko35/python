@@ -277,7 +277,7 @@ print(liste[index.
 # Numpy Kütüphanesi
 - Herhangi birşey import ederken import dosya_adi as dosya_kısaltmasi olarak kısaltma ataması yapmak mümkün
 - Numpy kullanılma sebebi matlabtaki gibi vektör oluşturma, matrix oluşturmada kullanılır.
-## Array(kelime anlamı olarak MATRİS anlamına gelir)
+## ! Array(kelime anlamı olarak MATRİS anlamına gelir)
 - np.array ile liste oluşturuluyor
 - array.reshape(x,y)x satırında y sütünü kada matris oluşturmuş oluyoruz
 - array.ndim ile kaç boyutlu olduğunu öğrenebiliriz.
@@ -323,10 +323,11 @@ print(liste[index.
 - Bir array ile diğper bir arrayi birleştirmeye yarar.
 - Dikine birleştirmek istiyorsak np.vstack((arrayismi,arrayismi))
 - Yatay birleştirmek için np.hstack((arrayinismi,arrayinismi))
-
-
-
-
+## Arrayı Listeye Dönüştürme(Conver and Copy)
+- Liste şeklinden veri beklendiği durumlarda yapılır.
+-  Birtane array oluşturup farklı işlemler yapmamız gereken durumlarda ihtiyaç duyuyoruz örneğin ilgili arraydeki herhangi bir rakamı değiştirmek gibi. 
+- copyyapmakistenilendegiskenismi.copy() kopyalarsam sadece o değişken değişir memorydeki değişmez
+# Pandas Kütüphanesi
 
 
 
