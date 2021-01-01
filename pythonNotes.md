@@ -277,7 +277,7 @@ print(liste[index.
 # Numpy Kütüphanesi
 - Herhangi birşey import ederken import dosya_adi as dosya_kısaltmasi olarak kısaltma ataması yapmak mümkün
 - Numpy kullanılma sebebi matlabtaki gibi vektör oluşturma, matrix oluşturmada kullanılır.
-## Array 
+## Array(kelime anlamı olarak MATRİS anlamına gelir)
 - np.array ile liste oluşturuluyor
 - array.reshape(x,y)x satırında y sütünü kada matris oluşturmuş oluyoruz
 - array.ndim ile kaç boyutlu olduğunu öğrenebiliriz.
@@ -310,8 +310,19 @@ print(liste[index.
 - array[:,1] iki nokta  satırların hepsini al virgülden sonraki 1 de 1nci indeksteki sütunu al demiş oluyorum 
 - array[x,y] x satır y sütun anlamına gelir eğerki son satırı almak istiyorsak x yerine -1 yazarız eğer ki tüm satırları almak istiyorsak : kullanırız.
 
-
-
+## Shape Manip.
+- Matrislerde düz liste olarak yazmaya yarar.
+- array.ravel() tek bir vektör haline getirir.
+### Matrisleri tekrar design etmek
+- a.reshape(x,y) x ve y kaça kaçlık matrise döndürmek istediğimizi girmiş oluruz.
+- 3 lü matriste transpozunu almak için array.T
+- resize reshape den farkı ne?
+- reshape geçici olarak değiştirirken resize matrisin yapısını değiştirip kaydeder.
+- array.resize(x,y)
+## Stacking Arrays
+- Bir array ile diğper bir arrayi birleştirmeye yarar.
+- Dikine birleştirmek istiyorsak np.vstack((arrayismi,arrayismi))
+- Yatay birleştirmek için np.hstack((arrayinismi,arrayinismi))
 
 
 
