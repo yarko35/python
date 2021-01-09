@@ -313,6 +313,56 @@ print(liste[index.
 -  Birtane array oluşturup farklı işlemler yapmamız gereken durumlarda ihtiyaç duyuyoruz örneğin ilgili arraydeki herhangi bir rakamı değiştirmek gibi. 
 - copyyapmakistenilendegiskenismi.copy() kopyalarsam sadece o değişken değişir memorydeki değişmez
 # Pandas Kütüphanesi
+- Data frame için oluşturulmuş kütüphanelerdir.
+- Hızlı ve etkili dataframes
+- Dosyalar arasında geçişleri kolay.
+- Missing data lara çözüm üretmede avantajlı.
+- reshape ile datayı daha verimli kullanabiliriz.
+- slicing ve indexing kolay.
+- time series data analizinde yardımcı.(zamanla gelen data)
+- Her şeyden önemlisi hız açısından optimize bir kütüphane.
+- Kısaltması dünya üzerinde pd olarak kullanırlar yada direkt pandas. olarak kullanılır.
+## pandas.DataFrame(dictIsmi)
+- Excel tablosu şeklinde göstermek için kullanılır.
+- yeni_degisken_isim=pandas.DataFrame(ilgili_dictionary_ismi)
+## _degiskenIsim.head()_
+- Önden göz gezdirme için kullanılır.
+- Head içerisinde herhangi bir değer girilmezse defaulttaki değer baz alınır içine girilen rakama göre de veri çekilebilir.
+- İlgili datadaki ilk 5 taneyi bana ver anlamına gelir.
+- Kullanım şekli;
+- head=cagırmakIstenilenDegiskenIsmi()
+- Çağırmak istediğimiz datanın isminin sonuna .head() getirerek kullanabiliriz.
+## _degiskenIsim.tail()_
+- Sondaki 5 i göstermemize yarar.
+- Tail içerisinde herhangi bir değer girilmezse defaulttaki değer(5) baz alınır içine girilen rakama göre de veri çekilebilir.
+- tail=cagırmakIstenilenDegiskenIsmi.tail()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
