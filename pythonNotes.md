@@ -342,8 +342,18 @@ print(liste[index.
 - dataframeisimi.dtypes her solumn type ını yazdırır
 - dataframeismi.describe() sadece nümerik özelliklerini alır
 ## Pandas Indexing and Slicing
-- dataframeismi["sütun ismi"]
-
+- dataframeismi["sütun basligi"] sadece ilgili sütundaki bilgileri alır. ve indexleride hep alır pandasta. 
+- Veri çekmenin başka yoluda dataframeİsmi.sütunbasligi
+- dataframeismi["yeni eklenecek sütun basliginin ismi "]=[sütunobje1,sütunobje2,sütunobje3] gibi dataframe e ekleme yapılmaktadır.
+- Sütunlarda gezinme/seçme işlemi yapmak için aynı numpyda kine benzer; dataframe.loc[satir,"sütunbasligi"]
+- Eğer ki satirdan sadece 3 tane veriye ihtiyacım varsa; dataframe.loc[:3,"sütunbasligi"]
+- Belirli başlık  aralığını yazdırmak istersem; dataframe.loc[:3,"sütunbasligi":"DİGERsütunbasligi"]
+- Başlık aralığınız yazdırmanın diğer yöntemi; dataframeismi.loc[:3,["sütunbasligi","DİĞERsütunbasligi"]]
+- Pandastaki gibi tersten yazdırmak istersem; dataframeismi.loc[::-1,:]
+- Name dahil olmak üzere 0ncı column dan istediğimiz yere kadar yazdırmak isterse; dataframeismi.loc[:,:"sütunbasligi"] üstunbasligi dahil olmak üzere yazdırır.
+- loc LOCATİON anlamına gelir
+- iloc integer LOCATİON anlamına gelir.
+- İlla ismiyle çağırmak zorunda değiliz şöyle de yapılabilir; dataframeismi.iloc[:,indexDegeri] indexDegeri 0 1 2 diye sayılmaktadır.
 
 
 
