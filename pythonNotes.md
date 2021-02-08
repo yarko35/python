@@ -336,8 +336,13 @@ print(liste[index.
 - Sondaki 5 i göstermemize yarar.
 - Tail içerisinde herhangi bir değer girilmezse defaulttaki değer(5) baz alınır içine girilen rakama göre de veri çekilebilir.
 - tail=cagırmakIstenilenDegiskenIsmi.tail()
-
-
+## Pandas Basic Methods
+- dataframeismiumns dataframe ataması yaptığımız sütunları gösterir
+- dataframeismio() dataframe in bilgilerini özet geçer sütun sayısı tip(numpy mı pandas mı)
+- dataframeisimi.dtypes her solumn type ını yazdırır
+- dataframeismi.describe() sadece nümerik özelliklerini alır
+## Pandas Indexing and Slicing
+- dataframeismi["sütun ismi"]
 
 
 
