@@ -339,12 +339,15 @@ print(liste[index.
 ## Pandas Basic Methods
 - dataframeismiumns dataframe ataması yaptığımız sütunları gösterir
 - dataframeismio() dataframe in bilgilerini özet geçer sütun sayısı tip(numpy mı pandas mı)
-- dataframeisimi.dtypes her solumn type ını yazdırır
+### .dtypes parametresi
+- dataframeisimi.dtypes her column type ını yazdırır
+### .describe() methodu
 - dataframeismi.describe() sadece nümerik özelliklerini alır
 ## Pandas Indexing and Slicing
 - dataframeismi["sütun basligi"] sadece ilgili sütundaki bilgileri alır. ve indexleride hep alır pandasta. 
 - Veri çekmenin başka yoluda dataframeİsmi.sütunbasligi
 - dataframeismi["yeni eklenecek sütun basliginin ismi "]=[sütunobje1,sütunobje2,sütunobje3] gibi dataframe e ekleme yapılmaktadır.
+### .loc() methodu 
 - Sütunlarda gezinme/seçme işlemi yapmak için aynı numpyda kine benzer; dataframe.loc[satir,"sütunbasligi"]
 - Eğer ki satirdan sadece 3 tane veriye ihtiyacım varsa; dataframe.loc[:3,"sütunbasligi"]
 - Belirli başlık  aralığını yazdırmak istersem; dataframe.loc[:3,"sütunbasligi":"DİGERsütunbasligi"]
@@ -352,10 +355,20 @@ print(liste[index.
 - Pandastaki gibi tersten yazdırmak istersem; dataframeismi.loc[::-1,:]
 - Name dahil olmak üzere 0ncı column dan istediğimiz yere kadar yazdırmak isterse; dataframeismi.loc[:,:"sütunbasligi"] üstunbasligi dahil olmak üzere yazdırır.
 - loc LOCATİON anlamına gelir
+### .iloc() methodu
 - iloc integer LOCATİON anlamına gelir.
 - İlla ismiyle çağırmak zorunda değiliz şöyle de yapılabilir; dataframeismi.iloc[:,indexDegeri] indexDegeri 0 1 2 diye sayılmaktadır.
-
-
+## Filtering Pandas Data Frame
+- dataframeismi.sütunbasligi > kontrol edilecek değer dersek bool cinsinden dataframe in içindeki değerleri verdiğimiz değere göre gösterir.
+- 2 ayrı koşulu birleştirmek istersek dataframeismi[filtrelenmişDeğişken1,filtrelenmişDeğişken2]
+- Direkt olarak kontrol sağlanmak istenirse; print(dataframeismi[dataframeismi.sütunbasligi> kontrol sağlanacak değer])
+## Pandas List Comprehension
+- Ortalama bulma; dataframeismi.sütunbasligi.mean() ile o sütuna ait ortalama bulunabilir.
+### .lower() methodu
+- Her bir columnda gezinip büyük harfleri küçük harflere çevirmek için; dataframeismi.columns=[each.lower() for each in dataframeismi.columns]
+### .slipt()
+- Başlıklar arasındaki boşlukları belirlemede  için kullanılır.
+- Kullanım şekli dataframeismi.columns=[each.slipt()[0]+"_" each.slipt()[1] if(len(each.slipt())>1) else each for each in dataframeismi.columns]
 
 
 
