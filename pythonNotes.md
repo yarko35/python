@@ -369,10 +369,21 @@ print(liste[index.
 ### .slipt()
 - Başlıklar arasındaki boşlukları belirlemede  için kullanılır.
 - Kullanım şekli dataframeismi.columns=[each.slipt()[0]+"_" each.slipt()[1] if(len(each.slipt())>1) else each for each in dataframeismi.columns]
-
-
-
-
+##  Concatenating Data(Ayrı dataları birleştirme)
+- dataframeismi.drop(["yeni eklenmiş başlık"],axis=1,inplace= True)
+- inplace yeni değeri alır dataframeismi ne dahil eder. 
+### Vertical Birleştirme
+- data1=dataframeismi.head()
+- data=2dataframeismi.tail()
+- pd.concat([data1,data2],axis=0)
+### Horizantal Birleştirme
+-data_h_concat=pd.concat([maas,age],axis=1)
+- axis in 1 oluşu dikey olarak ekler
+## Transforming Data(Data değerlerinde düzenleme yapma)
+- dataframeismi["yeni_baslik"]=[each*2  for each in dataframeismi.gezinmekistenenbaslikadi] başlık içindeki tüm değerleri gezer 2 ile çarpıp yeni başlığa ekler.
+### _Diğer Method_
+- _Adım1_:def ile bir fonksiyon oluşturulur.
+- _Adım2_: dataframeismi["yeni-baslik"]=dataframeismi.degistirilecekbaslik.apply(fonksiyon_ismi)
 
 
 
