@@ -14,7 +14,7 @@ setosa=df[df.Species == "Iris-setosa"]#sadece setosaları ayırır
 versiColor=df[df.Species == "Iris-versicolor"]#sadece versicolor ayırır
 print(setosa.describe())
 print(versiColor.describe())
-# %% Line Plot
+# %% Line Plot(Çizgi Grafiği)
 import matplotlib.pyplot as plt
 df1=df.drop(["Id"],axis=1)#sütundaki tüm değerleri çıkarır ve yeni dataframe oluşturur
 df1.plot()#görselleştirme kullanılır.Komut ekranındaki 
@@ -31,7 +31,7 @@ plt.plot(versiColor.Id,versiColor.PetalLengthCm, color="green",label="setosa - P
 plt.plot(virginica.Id,virginica.PetalLengthCm, color="blue",label="setosa - PetalLengthCm")#virginica için özelleştiremeler yapıyoruz
 plt.xlabel("Id")#x ekseni için isim veriyoruz
 plt.ylabel("PetalLengthCm")#y ekseni için isim veriyoruz
-◙plt.show()#çizdirdiğimiz grafiği gösterme komutu
+plt.show()#çizdirdiğimiz grafiği gösterme komutu
 # ----------------------------------------------------------grid ve lineStyle gösterme-----------------------------------
 #*************************Üçüncü grafik
 df1.plot(grid= True,linestyle = ":")#line : şeklinde çizdirilmiş olur 
@@ -40,7 +40,7 @@ plt.show()
 #************************Dördüncü grafik 
 df1.plot(grid= True,linestyle = ":",alpha=0.5)#saydamlığı ayarlamak için kullanılır 0 yaklaştıkça saydamlık artar
 plt.show()
-# %% Scatter Plot
+# %% Scatter Plot(Noktasal Grafik)
 # 2 tane özelliği karşılaştırma için kullanılır daha çok 
 #************************Beşinci Grafik
 import matplotlib.pyplot as plt
@@ -54,3 +54,58 @@ plt.xlabel("PetalLentghCm")
 plt.ylabel("PetalWidthCm")
 plt.title("Scatter Plot")
 plt.show()
+#%% Histogram Grafik
+plt.hist(setosa.PetalLengthCm,bins= 50)#bins histogram çubuklarının kalınlığıdır
+plt.xlabel("PetalLengthCm values")
+plt.ylabel("Frekans")
+plt.title("Hist Grafiği")
+#%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
