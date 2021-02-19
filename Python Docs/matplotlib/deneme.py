@@ -59,6 +59,7 @@ plt.hist(setosa.PetalLengthCm,bins= 50)#bins histogram çubuklarının kalınlı
 plt.xlabel("PetalLengthCm values")
 plt.ylabel("Frekans")
 plt.title("Hist Grafiği")
+plt.show()
 #%% Bar Plot(bar şeklinde grafik)
 #ülkelerin gelir dağılımlarını düşünelim 
 import numpy as np 
@@ -68,6 +69,7 @@ plt.bar(x,y)
 plt.title("Bar Grafiği")
 plt.xlabel("Array değerleri")
 plt.ylabel("Denklem Değerleri")
+plt.show()
 #barda hangi sırayla yazdıysam label değerleride ona göre gelir unutma 
 #%% Subplots 
 
