@@ -72,17 +72,23 @@ plt.ylabel("Denklem Değerleri")
 plt.show()
 #barda hangi sırayla yazdıysam label değerleride ona göre gelir unutma 
 #%% Subplots 
+#çubuk grafiğin aynısını farklı farklı çizgilerle çizdirmek demek 
 
+df1.plot(grid=True,alpha=0.9,subplots=True)
+setosa=df[df.Species == "Iris-setosa"]#sadece setosaları ayırır
+versiColor=df[df.Species == "Iris-versicolor"]#sadece versicolor ayırır
+virginica=df[df.Species == "Iris-virginica"]#sadece virginicayı ayırır
+#----------------------birinci grafik********************************
+plt.subplot(2,1,1)#sondaki 1 birinci grafiğim anlamına gelir
 
-
-
-
-
-
-
-
-
-
+plt.plot(setosa.Id,setosa.PetalLengthCm, color="red",label="setosa - PetalLengthCm")#setosa için özelleştirmeler
+plt.ylabel("setosa-PetalLengthCm")
+#---------------------birinci grafik bitiş***************************
+#--------------------------------------------ikinci grafik*****************
+plt.subplot(2,1,2)#sondaki 2 ikinci grafiğim anlamına gelir
+plt.plot(versiColor.Id,versiColor.PetalLengthCm, color="green",label="setosa - PetalLengthCm")#versiColor için
+plt.ylabel("versicolor-PetalLengthCm")
+#--------------------------------------------ikinci grafik bitiş **********
 
 
 

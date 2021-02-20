@@ -17,5 +17,4 @@ urunler=hamdataframe["Ürünler"]
 urunaciklama=hamdataframe["Ürün Açıklaması"]
 kar=hamdataframe["Kar"]
 dtframe=pd.concat([urunler,urunaciklama,kar],axis=1)
-dtframe.plot()
-plt.xlabel("yarko")
+
