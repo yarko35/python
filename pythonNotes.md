@@ -112,6 +112,8 @@
 - İlla ismiyle çağırmak zorunda değiliz şöyle de yapılabilir; dataframeismi.iloc[:,indexDegeri] indexDegeri 0 1 2 diye sayılmaktadır.
 ### .linspace()
 - Belirli bir eşit aralıkta sayıları döndürür 
+- Matris tanımlarken kullanılır.
+- Matlabdaki gibidir işlevi
 ### .hstack()
 - Dizileri yatay olarak sırasıyla yığınlar(horizantal)
 ## Filtering Pandas Data Frame _datayı filtreleme_
