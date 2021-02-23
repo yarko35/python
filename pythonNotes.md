@@ -308,6 +308,7 @@ print(liste[index.
 - array[x,y] x satır y sütun anlamına gelir eğerki son satırı almak istiyorsak x yerine -1 yazarız eğer ki tüm satırları almak istiyorsak : kullanırız.
 ## Shape Manip.
 - Matrislerde düz liste olarak yazmaya yarar.
+### .ravel() _tek bir vektör haline getirir_
 - array.ravel() tek bir vektör haline getirir.
 ### Matrisleri tekrar design etmek
 - a.reshape(x,y) x ve y kaça kaçlık matrise döndürmek istediğimizi girmiş oluruz.
