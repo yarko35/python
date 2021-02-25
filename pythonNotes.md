@@ -147,7 +147,13 @@ _Horizantal Birleştirme_
 ### .apply() _dataframe deki değeri değiştirip yeni başlığa atamada kullanılır_
 - _Adım1_:def ile bir fonksiyon oluşturulur.
 - _Adım2_: dataframeismi["yeni-baslik"]=dataframeismi.degistirilecekbaslik.apply(fonksiyon_ismi)
+# Yapay Zeka OOP
+- 
+## Classes 
+- 
 
+
+# Bitişi
 ## _While_
 - for döngülerinde yapcaklarımız while döngüsünde de yapabiliriz.Sadece bazı noktalarda for döngüleri daha avantajlı oluyor
 ```python
