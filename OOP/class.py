@@ -20,3 +20,23 @@ class kole(object):
 #Class içerisi dışarısı kavramlarını unutma
 #aksi takdirde IndentationError hatasını alabilirsin.(fazla boşluk bırakma)
 koleyaratma= kole()#kölemizi yaratmış oluyoruz böylelikle
+#%% attribute
+class footballer(object):
+    soccerTeam="Besiktas"
+    age=30
+playerOne=footballer()
+#----------------------------class içerisinden veri çekme------------------
+ageofplayer=playerOne.age
+print(ageofplayer)
+#----------------------------attribute değiştirme------------------
+playerOne.soccerTeam="Porto FC"
+print(playerOne.soccerTeam)
+#%% methods
+
+class square(object):
+    edge=5
+    def area(self):
+        area=self.edge*self.edge
+        print("Your square area point is {}.".format(area))
+heyhey=square()
+print(heyhey.area())
