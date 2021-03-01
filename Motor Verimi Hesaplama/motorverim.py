@@ -5,8 +5,6 @@ Created on Sat Feb 27 14:12:55 2021
 @author: yarki
 """
 import matplotlib.pyplot as plt
-
-
 while True :
     #Æ***************************************fonksiyon********************
     def kenergy(x,y):
@@ -21,7 +19,7 @@ while True :
     #--------------------if döngüleri-------------
     if islem=="1":
         i=0
-        while i<2:
+        while i<4:
             i +=1
             carWeight=int(input("Arabanızın ağırlığını giriniz(kg):"))
             hız=int(input("Aracın son hızını giriniz(m/s):"))
@@ -35,7 +33,7 @@ while True :
         break
     elif islem=='2':
         i=0
-        while i<2:
+        while i<4:
             i +=1
             carWeight=int(input("Arabanızın ağırlığını giriniz(kg):"))
             hız=int(input("Aracın son hızını giriniz:"))

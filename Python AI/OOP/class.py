@@ -40,3 +40,21 @@ class square(object):
         print("Your square area point is {}.".format(area))
 heyhey=square()
 print(heyhey.area())
+#%% methods vs func
+class emp(object):
+    age=15
+    salary=1000
+    def ageSalaryRatio(self):
+        print(self.age/self.salary)
+def ageSalaryRatio(age,salary):
+    print(age/salary)
+emp1=emp()
+emp1.ageSalartRatio()
+#fonksiyonları class içerisinde tanımlarsak value sabit olarak belirlememiz gerekiyor
+#ama biz fonksiyonu dışarda tanımlarsak değeri kendimiz atayabiliyoruz
+#bir fonksiyonu class içerisinde tanımlarsak method,dışında tanımlarsak fonksiyon oluyor
+#değişken değerler varsa fonksiyonu sabitler söz konusuysa methodları tercih ediyoruz.
+#------------
+#pythonda karesini alırken double * kullanıyoruz
+#------------------------
+#Fonksiyonun sonucunu bir değere eşitledikten sonra ekrana göstermek istiyorsak fonksiyon içerisinde return ifadesini kullanmalıyız aksi takdirde print ile yazdırdığımız cevabın ekranda geri dönüşü olmayacaktır
