@@ -19,7 +19,7 @@ while True :
     #--------------------if döngüleri-------------
     if islem=="1":
         i=0
-        while i<1:
+        while i<2:
             i +=1
             carWeight=int(input("Arabanızın ağırlığını giriniz(kg):"))
             hız=int(input("Aracın son hızını giriniz(m/s):"))
@@ -33,7 +33,7 @@ while True :
         break
     elif islem=='2':
         i=0
-        while i<4:
+        while i<2:
             i +=1
             carWeight=int(input("Arabanızın ağırlığını giriniz(kg):"))
             hız=int(input("Aracın son hızını giriniz:"))
