@@ -6,7 +6,7 @@ Created on Mon Feb 15 20:56:14 2021
 """
 # %% Pandas Review
 import pandas as pd
-df= pd.read_csv("iris.csv")#eğer aynı yerde değilse dosya yolu kopyala yapıştır
+#df= pd.read_csv("iris.csv")#eğer aynı yerde değilse dosya yolu kopyala yapıştır
 print(df.Species.unique())#alt başlıklarını gösterir
 print(df.info)
 df.describe()#ortalamaları alır
