@@ -58,3 +58,65 @@ emp1.ageSalartRatio()
 #pythonda karesini alırken double * kullanıyoruz
 #------------------------
 #Fonksiyonun sonucunu bir değere eşitledikten sonra ekrana göstermek istiyorsak fonksiyon içerisinde return ifadesini kullanmalıyız aksi takdirde print ile yazdırdığımız cevabın ekranda geri dönüşü olmayacaktır
+#%% Yapıcı/Constructor or other name is Initializer
+
+class animal(object):
+    
+    
+    def __init__(self, animalname, animalage): #---------init demen initializer(kurucu )demek
+     #dışardan alınacak değerin objeye eşit olması için self ile oluşturma yapıyorum
+        self.animalname=animalname
+        self.animalage=animalage
+    def getAge(self):
+        return self.animalage
+    def getName(self):
+        print("Hayvanınızın ismi {} dır.".format(self.animalname))
+
+#class içerisindeki methodları kullanarak birden fazla parametre geçmek istersek kullanıyoruz
+animalOne= animal("Ege Bağçıvan", 21)
+
+
+print(animalOne.getName())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
