@@ -32,6 +32,5 @@ print("\nToplama işleminizin sonucu {}".format(getClasss.add()))
 print("Çıkarma işleminizin sonucu {}".format(getClasss.minus()))
 print("Çarpma işleminizin sonucu {}".format(getClasss.multiply()))
 print("Bölme işleminizin sonucu {}".format(getClasss.bolme()))
-
 #type() ile string mi integer mı double mı class mı nedir ne değildir öğrenmek için kullanıyoruz
 

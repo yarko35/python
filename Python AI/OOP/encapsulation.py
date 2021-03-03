@@ -17,12 +17,9 @@ class bankAccount(object):
 
 personEge=bankAccount(5000,"Ege Bağçıvan","Narlıdere")
 personYarko=bankAccount(4820,"Yavuz Yarkın Okular","Balçova")
-personErdem=bankAccount(2324,"Erdem Çankaya","Balçova")
-        
-#erdeminh parasını aldı benim parama ekledi
+personErdem=bankAccount(2324,"Erdem Çankaya","Balçova")      
+#erdemin parasını aldı benim parama ekledi
 personYarko.money=personYarko.money +personErdem.money
 print(personYarko.money)
-
 #private yapınca erişmek istediğimizde AttributeError hatası verir değil değiştirmek görüntülemekte yapılamaz
-
 personYarko.__money #private yaptıktan sonra bu şekilde çağırabiliyoruz içerdeki methodu
