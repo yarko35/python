@@ -26,7 +26,7 @@ class websiteMail(webstie):
     def __init__(self, name,mail,phoneNumber):
         webstie.__init__(self,name,mail)
         self.phoneNumber=phoneNumber
-    def logininfos(self):
+    def info_mail(self):
         print(self.name,self.mail,self.phoneNumber)
 
 
