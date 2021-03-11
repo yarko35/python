@@ -1,4 +1,4 @@
-#parent
+# ! parent
 class animal:
 
     def __init__(self):
@@ -8,7 +8,7 @@ class animal:
         print("Animal")
     def walk(self):
         print("Hayvanlar yürür")
-#Maymun classı
+# ! Maymun classı
 class monkey(animal): #monkey classım animal classımdan türemiştir demiş oluyorum 
 
     def __init__(self):
